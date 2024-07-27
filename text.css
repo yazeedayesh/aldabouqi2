@@ -1,0 +1,227 @@
+/* Social Icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff; /* يمكنك تعديل اللون عند التحويم */
+}
+
+/* Custom WhatsApp Button */
+.whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #20b358;
+  text-decoration: none;
+  color: white;
+}
+
+/* Custom Call Button */
+.call-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin-left: 10px; /* Adds space between the buttons */
+}
+
+.call-btn:hover {
+  background-color: #0056b
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .bs-example{
+          margin: 20px;
+      }
+      /* Sticky Footer Classes */
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  #page-content {
+    flex: 1 0 auto;
+  }
+  
+  #sticky-footer {
+    flex-shrink: none;
+  }
+  
+  
+  /* Other Classes for Page Styling */
+  
+  body {
+    background: linear-gradient(to right, 	    #cacaca,	  #cacaca);
+  }
+  
+  header {
+    position: relative;
+    background: url('C:/Users/AL AMEER/Desktop/aldabouqi web/image/2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 60vh; /* يمكنك تعديل هذا الحجم بناءً على متطلباتك */
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+      
+  header .container {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+  }
+
+  header .text-white {
+    background: rgba(0, 0, 0, 0.5); /* تدرج خلفي أسود مع بعض الشفافية */
+    padding: 20px; /* إضافة بعض المسافة حول النص */
+    border-radius: 5px; /* إضافة حواف دائرية */
+    color: #fff; /* لون النص الأبيض */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ظل النص */
+    font-weight: bold; /* جعل النص غامقاً */
+    text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
+}
+
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    opacity: 0.5;
+    z-index: 1;
+  }
+  /* Custom Footer Copyright Style */
+.custom-footer-copyright {
+  color: #0b0439; /* تغيير لون النص هنا */
+  background-color: #f4f4f4; /* يمكنك تعديل لون خلفية الـ div هنا */
+  padding: 10px 0; /* توفير مساحة حول النص */
+  border-top: 2px solid #000000; /* تحديد فاصل مرئي إذا لزم الأمر */
+  margin-top: 20px; /* فصل النص عن المحتوى العلوي */
+}
+
+/* Custom Social Icon Style */
+.social-icon {
+  color: #070321;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #11457d; /* يمكنك تعديل اللون عند التحويم */
+}
+/* Define a common background color */
+:root {
+    --background-color: #343a40; /* لون الخلفية المشترك */
+}
+
+/* Navigation Bar Style */
+.navbar {
+    background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
+}
+
+/* Footer Copyright Style */
+.footer-copyright {
+    background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
+    color: #fff; /* لون النص في حقوق النشر */
+    padding: 10px 0; /* توفير مساحة حول النص */
+    border-top: 2px solid #007bff; /* إضافة فاصل مرئي باللون المفضل */
+    margin-top: 20px; /* فصل النص عن المحتوى العلوي */
+}
+
+/* Adjust the color of the social icons if needed */
+.social-icon {
+    color: #fff; /* لون الأيقونات الاجتماعية */
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #979a9d; /* لون الأيقونات عند التحويم */
+}
+/* Define a common background color */
+:root {
+  --background-color: #343a40; /* لون الخلفية المشترك */
+}
+
+/* Navigation Bar Style */
+.navbar {
+  background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
+}
+/* Style for keyword list */
+.keyword-list {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0; /* Remove padding */
+}
+
+/* styles.css */
+
+.keyword-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.keyword-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.keyword-list i {
+  font-size: 1.5rem;
+  color: #007bff; /* يمكنك تغيير اللون حسب تصميمك */
+  margin-right: 10px;
+}
+
+/* Style for main heading */
+.main-heading {
+  font-size: 36px; /* Increase font size */
+  color: #000000; /* Set text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow for better visibility */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.phone-number {
+  color: #007bff; /* Set color for phone number */
+  text-decoration: none; /* Remove underline from phone number */
+  font-weight: bold; /* Make phone number bold */
+}
+
+.phone-number:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+  

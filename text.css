@@ -54,9 +54,6 @@
   height: 65vh;
   min-height: 350px;
   background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -175,18 +172,6 @@ header .overlay {
   padding: 10px 0; /* توفير مساحة حول النص */
   border-top: 2px solid #007bff; /* إضافة فاصل مرئي باللون المفضل */
   margin-top: 20px; /* فصل النص عن المحتوى العلوي */
-}
-
-/* Adjust the color of the social icons if needed */
-.social-icon {
-  color: #fff; /* لون الأيقونات الاجتماعية */
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-  color: #979a9d; /* لون الأيقونات عند التحويم */
 }
 
 /* Style for keyword list */

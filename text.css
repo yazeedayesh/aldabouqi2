@@ -46,116 +46,98 @@
 }
 
 .call-btn:hover {
-  background-color: #0056b
+  background-color: #0056b3; /* تم تصحيح اللون هنا */
 }
 
+/* Carousel Item */
 .carousel-item {
-    height: 65vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  .bs-example{
-          margin: 20px;
-      }
-      /* Sticky Footer Classes */
-  
-  html,
-  body {
-    height: 100%;
-  }
-  
-  #page-content {
-    flex: 1 0 auto;
-  }
-  
-  #sticky-footer {
-    flex-shrink: none;
-  }
-  
-  
-  /* Other Classes for Page Styling */
-  
-  body {
-    background: linear-gradient(to right, 	    #cacaca,	  #cacaca);
-  }
-  
-  header {
-    position: relative;
-    background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
-    background-size: cover;
-    height: 60vh; /* يمكنك تعديل هذا الحجم بناءً على متطلباتك */
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+/* Other Classes for Page Styling */
+body {
+  background: linear-gradient(to right, #cacaca, #cacaca);
+}
+
+header {
+  position: relative;
+  background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
+  background-size: cover;
+  height: 60vh; /* يمكنك تعديل هذا الحجم بناءً على متطلباتك */
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
 .about-image {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .single-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* لإعطاء الصور حواف مستديرة */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* لإعطاء الصور حواف مستديرة */
 }
 
 /* لصور الخلفية */
 .carousel-item.active {
-    background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
-    background-size: cover;
-    height: 400px; /* يمكنك تعديل الارتفاع حسب الحاجة */
+  background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px; /* يمكنك تعديل الارتفاع حسب الحاجة */
 }
 
 /* لضبط الصور داخل القسم */
 @media (max-width: 768px) {
-    .about-image {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .single-image {
-        margin-bottom: 15px;
-    }
-
-    .carousel-item.active {
-        height: 300px; /* تقليل ارتفاع الخلفية على الهواتف */
-    }
-}
-
-      
-  header .container {
-    position: relative;
-    z-index: 2;
-    padding: 20px;
+  .about-image {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  header .text-white {
-    background: rgba(0, 0, 0, 0.5); /* تدرج خلفي أسود مع بعض الشفافية */
-    padding: 20px; /* إضافة بعض المسافة حول النص */
-    border-radius: 5px; /* إضافة حواف دائرية */
-    color: #fff; /* لون النص الأبيض */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ظل النص */
-    font-weight: bold; /* جعل النص غامقاً */
-    text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
+  .single-image {
+    margin-bottom: 15px;
+  }
+
+  .carousel-item.active {
+    height: 300px; /* تقليل ارتفاع الخلفية على الهواتف */
+  }
 }
 
-  header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(5, 5, 5);
-    opacity: 0.5;
-    z-index: 1;
-  }
-  /* Custom Footer Copyright Style */
+header .container {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+header .text-white {
+  background: rgba(0, 0, 0, 0.5); /* تدرج خلفي أسود مع بعض الشفافية */
+  padding: 20px; /* إضافة بعض المسافة حول النص */
+  border-radius: 5px; /* إضافة حواف دائرية */
+  color: #fff; /* لون النص الأبيض */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ظل النص */
+  font-weight: bold; /* جعل النص غامقاً */
+  text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(5, 5, 5);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Custom Footer Copyright Style */
 .custom-footer-copyright {
   color: #0b0439; /* تغيير لون النص هنا */
   background-color: #f4f4f4; /* يمكنك تعديل لون خلفية الـ div هنا */
@@ -175,36 +157,7 @@
 .social-icon:hover {
   color: #11457d; /* يمكنك تعديل اللون عند التحويم */
 }
-/* Define a common background color */
-:root {
-    --background-color: #343a40; /* لون الخلفية المشترك */
-}
 
-/* Navigation Bar Style */
-.navbar {
-    background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
-}
-
-/* Footer Copyright Style */
-.footer-copyright {
-    background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
-    color: #fff; /* لون النص في حقوق النشر */
-    padding: 10px 0; /* توفير مساحة حول النص */
-    border-top: 2px solid #007bff; /* إضافة فاصل مرئي باللون المفضل */
-    margin-top: 20px; /* فصل النص عن المحتوى العلوي */
-}
-
-/* Adjust the color of the social icons if needed */
-.social-icon {
-    color: #fff; /* لون الأيقونات الاجتماعية */
-    font-size: 24px;
-    margin: 0 10px;
-    transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-    color: #979a9d; /* لون الأيقونات عند التحويم */
-}
 /* Define a common background color */
 :root {
   --background-color: #343a40; /* لون الخلفية المشترك */
@@ -214,17 +167,32 @@
 .navbar {
   background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
 }
+
+/* Footer Copyright Style */
+.footer-copyright {
+  background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
+  color: #fff; /* لون النص في حقوق النشر */
+  padding: 10px 0; /* توفير مساحة حول النص */
+  border-top: 2px solid #007bff; /* إضافة فاصل مرئي باللون المفضل */
+  margin-top: 20px; /* فصل النص عن المحتوى العلوي */
+}
+
+/* Adjust the color of the social icons if needed */
+.social-icon {
+  color: #fff; /* لون الأيقونات الاجتماعية */
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #979a9d; /* لون الأيقونات عند التحويم */
+}
+
 /* Style for keyword list */
 .keyword-list {
   list-style-type: none; /* Remove default list bullets */
   padding: 0; /* Remove padding */
-}
-
-/* styles.css */
-
-.keyword-list {
-  list-style-type: none;
-  padding: 0;
 }
 
 .keyword-list li {
@@ -257,5 +225,3 @@
 .phone-number:hover {
   text-decoration: underline; /* Add underline on hover */
 }
-
-  

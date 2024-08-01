@@ -66,11 +66,11 @@
 }
 
 /* Other Classes for Page Styling */
-body {
+.body {
   background: linear-gradient(to right, #cacaca, #cacaca);
 }
 
-header {
+.header {
   position: relative;
   background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
   background-size: cover;
@@ -115,13 +115,13 @@ header {
   }
 }
 
-header .container {
+.header .container {
   position: relative;
   z-index: 2;
   padding: 20px;
 }
 
-header .text-white {
+.header .text-white {
   background: rgba(0, 0, 0, 0.5); /* تدرج خلفي أسود مع بعض الشفافية */
   padding: 20px; /* إضافة بعض المسافة حول النص */
   border-radius: 5px; /* إضافة حواف دائرية */
@@ -131,7 +131,7 @@ header .text-white {
   text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
 }
 
-header .overlay {
+.header .overlay {
   position: absolute;
   top: 0;
   left: 0;

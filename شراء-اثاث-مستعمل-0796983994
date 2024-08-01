@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="نحن في شركة الدابوقي متخصصون في شراء جميع أنواع الأثاث المستعمل في الأردن بأفضل الأسعار. نوفر خدمة سريعة واتفاقات سهلة لشراء الأثاث المستعمل.">
+    <title>شراء الأثاث المستعمل</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9FH7PMRW14">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9FH7PMRW14');
+</script>
+    <link rel="icon" type="image/png" href="https://github.com/yazeedayesh/aldabouqi2/raw/main/image/6.jpg">
+    <link rel="stylesheet" type="text/css" href="text.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .html, .body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .body {
+            flex: 1;
+        }
+
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .whatsapp-btn, .call-btn {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .whatsapp-btn {
+            background-color: #25d366;
+        }
+
+        .call-btn {
+            background-color: #007bff;
+        }
+
+        .keyword-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .keyword-list li {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .keyword-list i {
+            margin-right: 8px;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .social-icon {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">الدابوقي لشراء الأثاث المستعمل</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="تبديل التنقل">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.aldabouqi.com/" />الصفحة الرئيسية
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.aldabouqi.com/about" />من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.aldabouqi.com/service" />خدماتنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3">الدابوقي لشراء الأثاث المستعمل</h1>
+                    <a class="whatsapp-btn" href="https://wa.me/962796983994">
+                        <i class="fab fa-whatsapp"></i> واتساب
+                    </a>
+                    <a class="call-btn" href="tel:+962796983994">
+                        <i class="fas fa-phone-alt"></i> اتصال
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+        <section id="main-keywords">
+            <h3 class="font-weight-light text-center main-heading">
+                شراء الأثاث المستعمل بأفضل الأسعار
+                <a href="tel:+962796983994" class="phone-number">0796983994</a>
+            </h3>
+            <p class="siteword">
+                هل لديك أثاث مستعمل وتبحث عن الشركة المثالية لشراءه بأفضل سعر وأعلى جودة خدمة؟
+                سواء كان لديك غرف جلوس، غرف نوم، لوازم مطبخ، أو حتى لوازم للحدائق المنزلية، نحن هنا لتلبية احتياجاتك. نقدم خدمات شراء الأثاث المستعمل بكافة أنواعه وبأفضل الأسعار المتاحة.
+                نحن متخصصون في هذا المجال منذ سنوات عديدة ولنا خبرة واسعة في تقييم الأثاث المنزلي، مما يتيح لنا تحديد السعر الأنسب لكل قطعة مقارنةً بمنافسيينا. تميزنا لا يقتصر فقط على الأسعار التنافسية بل يمتد أيضًا إلى دقة مواعيدنا وكفاءة نظامنا في نقل الأثاث.
+                فريقنا المحترف يتعامل مع الأثاث المستعمل بكل حرص لتجنب أي إزعاج أو فوضى أثناء عملية النقل. نحن نضمن أن يتم فك وتجميع الأثاث بأعلى مستوى من الدقة والاحترافية، لضمان تجربة خالية من المتاعب.
+                لا تتردد في الاتصال بنا لبيع الأثاث المستعمل لديك واستفد من أفضل الخدمات والأسعار في السوق.
+            </p>
+            <hr class="mt-2 mb-5">
+            <div class="row text-center text-lg-left">
+                <!-- Add your gallery items here -->
+            </div>
+        </section>
+        
+        <div class="container mt-5">
+            <section>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="keyword-list">
+                            <li><i class="fas fa-couch"></i> شراء أثاث مستعمل</li>
+                            <li><i class="fas fa-couch"></i> أثاث مستعمل في عمان</li>
+                            <li><i class="fas fa-couch"></i> شراء أثاث مستعمل الأردن</li>
+                            <li><i class="fas fa-couch"></i> أثاث مستعمل للبيع في عمان</li>
+                            <li><i class="fas fa-couch"></i> شراء أثاث مستعمل بأسعار جيدة</li>
+                            <li><i class="fas fa-couch"></i> أثاث مستعمل مكاتب عمان</li>
+                            <li><i class="fas fa-couch"></i> أثاث مستعمل منازل في الأردن</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="keyword-list">
+                            <li><i class="fas fa-lightbulb"></i> شراء أثاث كهربائي مستعمل عمان</li>
+                            <li><i class="fas fa-lightbulb"></i> استبدال أثاث مستعمل في عمان</li>
+                            <li><i class="fas fa-lightbulb"></i> تقييم أثاث مستعمل في الأردن</li>
+                            <li><i class="fas fa-lightbulb"></i> بيع أثاث مستعمل في عمان</li>
+                            <li><i class="fas fa-lightbulb"></i> خدمات نقل أثاث مستعمل في عمان</li>
+                            <li><i class="fas fa-lightbulb"></i> أفضل أسعار للأثاث المستعمل في عمان</li>
+                            <li><i class="fas fa-lightbulb"></i> عروض أثاث مستعمل في الأردن</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="keyword-list">
+                            <li><i class="fas fa-tag"></i> شراء أثاث مستعمل بأسعار مخفضة</li>
+                            <li><i class="fas fa-tag"></i> أفضل مواقع لشراء أثاث مستعمل في عمان</li>
+                            <li><i class="fas fa-tag"></i> شراء أثاث مستعمل بأفضل الأسعار في الأردن</li>
+                            <li><i class="fas fa-tag"></i> خدمات شراء وبيع أثاث مستعمل عمان</li>
+                            <li><i class="fas fa-tag"></i> نشتري جميع أنواع الأثاث المستعمل</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color darker-3 pt-4">
+        <!-- Footer Elements -->
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                    <!-- محتوى التذييل يمكن إضافته هنا إذا لزم الأمر -->
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2024 Copyright:
+            <a href="https://www.facebook.com/shra2athathmost3mal?mibextid=LQQJ4d"> Yazeed Ayesh</a>
+            <a href="https://www.facebook.com/shra2athathmost3mal?mibextid=LQQJ4d" class="social-icon" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/962796983994" class="social-icon" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/aldabouqi_store?igsh=c212ZGhodHpuMWF5" class="social-icon" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

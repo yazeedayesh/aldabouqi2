@@ -172,6 +172,18 @@ header .overlay {
 .navbar {
   background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
 }
+/* Navigation Bar Style */
+.navbar {
+  background-color: #333; /* لون داكن لخلفية شريط التنقل */
+}
+
+.navbar-nav .nav-link {
+  color: #f8f9fa; /* لون نصوص فاتح لزيادة التباين */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #eb3656; /* لون تفاعلي مميز */
+}
 
 /* Footer Copyright Style */
 .footer-copyright {

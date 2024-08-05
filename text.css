@@ -188,6 +188,7 @@ header .overlay {
 /* Footer Copyright Style */
 .footer-copyright {
   background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
+}
  .footer a {
             color: #fff;
         }

@@ -176,11 +176,32 @@ header .overlay {
 }
 
 /* Footer Copyright Style */
-.footer-copyright {
-  background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
-  color: #fff; /* لون النص في حقوق النشر */
-  padding: 5px 0; /* توفير مساحة حول النص */
-  margin-top: 10px; /* فصل النص عن المحتوى العلوي */
+.site-footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.site-footer .social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer .social-icons li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.site-footer .social-icon {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.site-footer .social-icon:hover {
+  color: #007bff;
 }
 
 /* Style for keyword list */

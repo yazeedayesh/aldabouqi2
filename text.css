@@ -224,3 +224,7 @@ header .overlay {
 .phone-number:hover {
   text-decoration: underline; /* Add underline on hover */
 }
+  .body {
+  font-family: 'Roboto', sans-serif; /* استبدل 'Roboto' بالخط الذي اخترته */
+}
+

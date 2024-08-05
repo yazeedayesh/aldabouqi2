@@ -141,16 +141,6 @@ header .overlay {
   opacity: 0.5;
   z-index: 1;
 }
-
-/* Custom Footer Copyright Style */
-.custom-footer-copyright {
-  color: #0b0439; /* تغيير لون النص هنا */
-  background-color: #f4f4f4; /* يمكنك تعديل لون خلفية الـ div هنا */
-  padding: 10px 0; /* توفير مساحة حول النص */
-  border-top: 2px solid #000000; /* تحديد فاصل مرئي إذا لزم الأمر */
-  margin-top: 20px; /* فصل النص عن المحتوى العلوي */
-}
-
 /* Custom Social Icon Style */
 .social-icon {
   color: #070321;

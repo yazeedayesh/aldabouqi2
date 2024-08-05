@@ -188,18 +188,10 @@ header .overlay {
 /* Footer Copyright Style */
 .footer-copyright {
   background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
+  color: #fff; /* لون النص في حقوق النشر */
+  padding: 5px 0; /* توفير مساحة حول النص */
+  margin-top: 10px; /* فصل النص عن المحتوى العلوي */
 }
- .footer a {
-            color: #fff;
-        }
-        .footer a:hover {
-            color: #eb3656;
-        }
-        .footer .footer-copyright {
-            color: #fff;
-            background-color: #333;
-            padding: 10px 0;
-        }
 
 /* Style for keyword list */
 .keyword-list {

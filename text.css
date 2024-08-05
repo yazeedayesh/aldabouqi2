@@ -176,6 +176,13 @@ header .overlay {
 }
 
 /* Footer Copyright Style */
+.custom-footer-copyright {
+  color: #0b0439; /* تغيير لون النص هنا */
+  background-color: #f4f4f4; /* يمكنك تعديل لون خلفية الـ div هنا */
+  padding: 10px 0; /* توفير مساحة حول النص */
+  border-top: 2px solid #000000; /* تحديد فاصل مرئي إذا لزم الأمر */
+  margin-top: 20px; /* فصل النص عن المحتوى العلوي */
+}
 .site-footer {
   background-color: #343a40;
   color: #fff;

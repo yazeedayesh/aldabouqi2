@@ -72,7 +72,7 @@ body {
 
 header {
   position: relative;
-  background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
+  background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/22.jpg') no-repeat center center;
   background-size: cover;
   height: 60vh; /* يمكنك تعديل هذا الحجم بناءً على متطلباتك */
   min-height: 25rem;
@@ -94,7 +94,7 @@ header {
 
 /* لصور الخلفية */
 .carousel-item.active {
-  background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
+  background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/22.jpg') no-repeat center center;
   background-size: cover;
   height: 400px; /* يمكنك تعديل الارتفاع حسب الحاجة */
 }

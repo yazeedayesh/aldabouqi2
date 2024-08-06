@@ -29,7 +29,7 @@
 .whatsapp-btn:hover {
   background-color: #20b358;
   text-decoration: none;
-  color: white;
+  color: rgb(3, 0, 0);
 }
 .hero-section {
     background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/6.jpg') no-repeat center center/cover;

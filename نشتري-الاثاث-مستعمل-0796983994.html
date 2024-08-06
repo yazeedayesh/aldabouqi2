@@ -170,19 +170,15 @@
         </div>
     </div>
 
-      <!-- footer -->
-    <footer class="page-footer font-small mdb-color darker-3 pt-4">
-        <!-- Footer Elements -->
-        <div class="container">
-        </div>
-        <div class="footer-copyright text-center py-3">© 2024 Copyright: Aldabouqi
-            <a href="https://www.facebook.com/aldabouqi?mibextid=LQQJ4d" class="social-icon" target="_blank">
-            <i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/aldabouqi_store?igsh=c212ZGhodHpuMWF5" class="social-icon" target="_blank">
-            <i class="fab fa-instagram"></i></a>
-        </div>
-  </footer>
-
+       <!-- footer -->
+<div id="footer-placeholder"></div>
+<script>
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        });
+</script>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

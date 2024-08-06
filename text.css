@@ -175,40 +175,27 @@ header .overlay {
   color: #eb3656; /* لون تفاعلي مميز */
 }
 
-/* Footer Copyright Style */
-.custom-footer-copyright {
-  color: #0b0439; /* تغيير لون النص هنا */
-  background-color: #f4f4f4; /* يمكنك تعديل لون خلفية الـ div هنا */
-  padding: 10px 0; /* توفير مساحة حول النص */
-  border-top: 2px solid #000000; /* تحديد فاصل مرئي إذا لزم الأمر */
-  margin-top: 20px; /* فصل النص عن المحتوى العلوي */
-}
-.site-footer {
-  background-color: #fdfdfd;
-  color: #fff;
+/* Footer Style */
+.page-footer {
+  background-color: #343a40; /* لون الخلفية للفوتر */
+  color: #ffffff; /* لون النص */
   padding: 20px 0;
   text-align: center;
 }
 
-.site-footer .social-icons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.page-footer a {
+  color: #ffffff; /* لون الروابط داخل الفوتر */
 }
 
-.site-footer .social-icons li {
-  display: inline;
-  margin: 0 10px;
+.page-footer a:hover {
+  color: #eb3656; /* لون الروابط عند التمرير */
 }
 
-.site-footer .social-icon {
-  color: #fff;
-  font-size: 24px;
-  transition: color 0.3s ease;
-}
-
-.site-footer .social-icon:hover {
-  color: #007bff;
+/* Footer Copyright Style */
+.footer-copyright {
+  color: #ffffff;
+  background-color: #23272b;
+  padding: 10px 0;
 }
 
 /* Style for keyword list */

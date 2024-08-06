@@ -174,30 +174,6 @@ header .overlay {
 .navbar-nav .nav-link:hover {
   color: #eb3656; /* لون تفاعلي مميز */
 }
-
-/* Footer Style */
-.page-footer {
-  background-color: #343a40; /* لون الخلفية للفوتر */
-  color: #ffffff; /* لون النص */
-  padding: 20px 0;
-  text-align: center;
-}
-
-.page-footer a {
-  color: #ffffff; /* لون الروابط داخل الفوتر */
-}
-
-.page-footer a:hover {
-  color: #eb3656; /* لون الروابط عند التمرير */
-}
-
-/* Footer Copyright Style */
-.footer-copyright {
-  color: #ffffff;
-  background-color: #23272b;
-  padding: 10px 0;
-}
-
 /* Style for keyword list */
 .keyword-list {
   list-style-type: none; /* Remove default list bullets */

@@ -11,7 +11,7 @@
 }
 
 .social-icon:hover {
-  color: #007bff; /* يمكنك تعديل اللون عند التحويم */
+  color: #007bff;
 }
 
 /* Custom WhatsApp Button */
@@ -54,7 +54,7 @@
 }
 
 .call-btn:hover {
-  background-color: #0056b3; /* تم تصحيح اللون هنا */
+  background-color: #0056b3; 
 }
 
 /* Carousel Item */
@@ -74,7 +74,7 @@ body {
   position: relative;
   background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
   background-size: cover;
-  height: 60vh; /* يمكنك تعديل هذا الحجم بناءً على متطلباتك */
+  height: 60vh; 
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -89,17 +89,17 @@ body {
 .single-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; /* لإعطاء الصور حواف مستديرة */
+  border-radius: 8px;
 }
 
-/* لصور الخلفية */
+
 .carousel-item.active {
   background: url('https://github.com/yazeedayesh/aldabouqi2/raw/main/image/2.jpg') no-repeat center center;
   background-size: cover;
-  height: 400px; /* يمكنك تعديل الارتفاع حسب الحاجة */
+  height: 400px; 
 }
 
-/* لضبط الصور داخل القسم */
+
 @media (max-width: 768px) {
   .about-image {
     flex-direction: column;
@@ -111,7 +111,7 @@ body {
   }
 
   .carousel-item.active {
-    height: 300px; /* تقليل ارتفاع الخلفية على الهواتف */
+    height: 300px; 
   }
 }
 
@@ -122,13 +122,13 @@ header .container {
 }
 
 header .text-white {
-  background: rgba(0, 0, 0, 0.5); /* تدرج خلفي أسود مع بعض الشفافية */
-  padding: 20px; /* إضافة بعض المسافة حول النص */
-  border-radius: 5px; /* إضافة حواف دائرية */
-  color: #fff; /* لون النص الأبيض */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ظل النص */
-  font-weight: bold; /* جعل النص غامقاً */
-  text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px; 
+  border-radius: 5px; 
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  font-weight: bold; 
+  text-transform: uppercase; 
 }
 
 header .overlay {
@@ -150,29 +150,29 @@ header .overlay {
 }
 
 .social-icon:hover {
-  color: #11457d; /* يمكنك تعديل اللون عند التحويم */
+  color: #11457d; 
 }
 
 /* Define a common background color */
 :root {
-  --background-color: #343a40; /* لون الخلفية المشترك */
+  --background-color: #343a40; 
 }
 
 /* Navigation Bar Style */
 .navbar {
-  background-color: var(--background-color); /* تطبيق لون الخلفية المشترك */
+  background-color: var(--background-color); 
 }
 /* Navigation Bar Style */
 .navbar {
-  background-color: #333; /* لون داكن لخلفية شريط التنقل */
+  background-color: #333;
 }
 
 .navbar-nav .nav-link {
-  color: #f8f9fa; /* لون نصوص فاتح لزيادة التباين */
+  color: #f8f9fa; 
 }
 
 .navbar-nav .nav-link:hover {
-  color: #eb3656; /* لون تفاعلي مميز */
+  color: #eb3656; 
 }
 /* Style for keyword list */
 .keyword-list {
@@ -189,7 +189,7 @@ header .overlay {
 
 .keyword-list i {
   font-size: 1.5rem;
-  color: #007bff; /* يمكنك تغيير اللون حسب تصميمك */
+  color: #007bff; 
   margin-right: 10px;
 }
 

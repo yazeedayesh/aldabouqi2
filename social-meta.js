@@ -17,3 +17,13 @@ metaTags.forEach(tagData => {
   tag.setAttribute('content', tagData.content);
   document.head.appendChild(tag);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll('a[target="_blank"]');
+  links.forEach(link => {
+    if (!link.hasAttribute('rel')) {
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+});
+

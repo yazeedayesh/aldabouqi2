@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "الدابوقي لشراء العفش المستعمل",
-  "image": "https://www.aldabouqi.com/logo.png",
+  "image": "https://raw.githubusercontent.com/yazeedayesh/aldabouqi2/main/image/icon.jpg",
   "@id": "https://www.aldabouqi.com/",
   "url": "https://www.aldabouqi.com/",
   "telephone": "+962796983994",

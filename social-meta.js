@@ -27,3 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// remove-html.js
+if (window.location.pathname.endsWith('.html')) {
+    var newUrl = window.location.pathname.replace('.html', '');
+    window.history.replaceState(null, null, newUrl);
+}
+

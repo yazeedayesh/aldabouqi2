@@ -245,7 +245,6 @@ h6,
 .section-title {
     color: var(--primary);
     font-weight: 600;
-    letter-spacing: 5px;
     text-transform: uppercase;
 }
 
@@ -584,3 +583,7 @@ h6,
   .call-btn:hover {
     background-color: #0056b3; 
   }
+   h4, h6, span, li, p {
+    direction: rtl;
+    text-align: right;
+}

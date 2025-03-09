@@ -550,6 +550,7 @@ h6,
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
 /* Custom WhatsApp Button */
 .whatsapp-btn {
     background-color: #25d366;
@@ -567,6 +568,7 @@ h6,
     text-decoration: none;
     color: rgb(3, 0, 0);
   }
+
   /* Custom Call Button */
 .call-btn {
     background-color: #007bff;
@@ -580,10 +582,74 @@ h6,
     margin-left: 10px; /* Adds space between the buttons */
   }
   
-  .call-btn:hover {
+.call-btn:hover {
     background-color: #0056b3; 
-  }
+}
    h4, h6, span, li {
     direction: rtl;
     text-align: right;
 }
+
+/* Whats&Call Button */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    animation: float 3s infinite ease-in-out alternate;
+}
+.floating-button::before {
+    content: '';
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, transparent 70%);
+    transition: 0.5s;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    z-index: 0;
+}
+.call-button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    bottom: 100px;
+    border: 2px solid rgba(0, 123, 255, 0.7);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.8);
+}
+.whatsapp-button {
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    border: 2px solid rgba(37, 211, 102, 0.7);
+    box-shadow: 0 0 15px rgba(37, 211, 102, 0.8);
+}
+.floating-button .icon {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
+.floating-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.9);
+}
+.floating-button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+/* END Whats&Call Button */

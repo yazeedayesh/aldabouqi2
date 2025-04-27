@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+
+/* Main container */
+.article-container {
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f9f9f9;
+    text-align: right;
+    direction: rtl;
+    padding: 20px 0;
+}
+
+.article-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Main Page Section */
+.content-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+/* Titles */
+.main-title {
+    position: relative;
+    color: #a16f3c;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.main-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 4px;
+    background-color: #a16f3c;
+}
+
+.sub-title {
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 30px 0 20px;
+    text-align: right;
+}
+
+.section-title {
+    color: #a16f3c;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 25px 0 15px;
+    text-align: right;
+}
+
+/* Paragraphs and text */
+.intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.article-container p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: right;
+}
+
+/* Lists */
+.article-container ul, 
+.article-container ol {
+    padding-right: 20px;
+    padding-left: 0;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+.article-container li {
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+/* Furniture sections */
+.furniture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.furniture-box {
+    background-color: #f8f5f0;
+    border-radius: 10px;
+    padding: 25px;
+    border-right: 5px solid #a16f3c;
+    transition: all 0.3s ease;
+}
+
+.furniture-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.furniture-box h3 {
+    color: #a16f3c;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+/* Process steps */
+.process-container {
+    margin: 40px 0;
+}
+
+.process-timeline {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.process-timeline:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    height: 4px;
+    background: #e0d5c8;
+    z-index: 1;
+}
+
+.process-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    width: 19%;
+}
+
+.step-number {
+    background-color: #a16f3c;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(161, 111, 60, 0.3);
+}
+
+.step-title {
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.step-desc {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Service areas */
+.locations-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.location-pill {
+    background-color: #f8f5f0;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.location-pill:hover {
+    background-color: #a16f3c;
+    color: #fff;
+}
+
+/* Call to action section */
+.call-to-action {
+    background: linear-gradient(45deg, #a16f3c, #d4a76a);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 50px 0;
+}
+
+.cta-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-call {
+    background-color: #fff;
+    color: #a16f3c;
+}
+
+.btn-call:hover {
+    background-color: #f8f5f0;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-whatsapp {
+    background-color: #25D366;
+    color: #fff;
+}
+
+.btn-whatsapp:hover {
+    background-color: #20ba56;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+/* FAQ section */
+.faq-container {
+    margin: 40px 0;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #333;
+    padding: 15px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:after {
+    content: "+";
+    font-size: 1.5rem;
+    color: #a16f3c;
+}
+
+.faq-answer {
+    padding: 0 0 15px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .furniture-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .process-timeline {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .process-timeline:before {
+        top: 0;
+        right: 40px;
+        width: 4px;
+        height: 100%;
+    }
+    
+    .process-step {
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-right: 60px;
+    }
+    
+    .step-number {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    
+    .step-info {
+        text-align: right;
+    }
+    
+    .step-title {
+        text-align: right;
+    }
+    
+    .step-desc {
+        text-align: right;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+    }
+    
+    .content-section {
+        padding: 20px;
+    }
+}

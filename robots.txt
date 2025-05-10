@@ -1,3 +1,27 @@
+# robots.txt for Aldabouqi Website
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Search engine specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://www.aldabouqi.com/sitemap.xml

@@ -195,37 +195,93 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <form action="https://formspree.io/f/xyzegrly" method="POST">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                   <form action="https://formspree.io/f/xyzegrly" method="POST">
+    <div class="row g-3">
+
+        <!-- Name -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="name" name="name" placeholder="اسمك" required>
+                <label for="name">اسمك</label>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="email" class="form-control" id="email" name="email" placeholder="بريدك الالكتروني" required>
+                <label for="email">بريدك الالكتروني</label>
+            </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="رقم الهاتف" required>
+                <label for="phone">رقم الهاتف</label>
+            </div>
+        </div>
+
+        <!-- Area Dropdown -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <select class="form-select" id="area-select" name="area" required>
+                    <option value="">اختر المنطقة</option>
+                    <option value="تلاع العلي">تلاع العلي</option>
+                    <option value="الدوار الرابع">الدوار الرابع</option>
+                    <option value="جبل الحسين">جبل الحسين</option>
+                    <option value="صويلح">صويلح</option>
+                    <option value="ماركا">ماركا</option>
+                    <option value="جبل عمان">جبل عمان</option>
+                    <option value="العبدلي">العبدلي</option>
+                    <option value="ضاحية الياسمين">ضاحية الياسمين</option>
+                    <option value="أخرى">أخرى</option>
+                </select>
+                <label for="area-select">اسم المنطقة</label>
+            </div>
+        </div>
+
+        <!-- Other Area (Hidden) -->
+        <div class="col-12" id="area-other-box" style="display: none;">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="area-other" placeholder="اكتب اسم المنطقة">
+                <label for="area-other">اكتب اسم المنطقة</label>
+            </div>
+        </div>
+
+        <!-- Message -->
+        <div class="col-12">
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="اكتب وصف الأثاث هنا" id="message" name="message" style="height: 120px;" required></textarea>
+                <label for="message">وصف الأثاث</label>
+            </div>
+        </div>
+
+        <!-- Submit -->
+        <div class="col-12">
+            <button class="btn btn-primary w-100 py-3" type="submit">ارسل الطلب</button>
+        </div>
+
+    </div>
+</form>
+
+<script>
+document.getElementById("area-select").addEventListener("change", function () {
+    const otherBox = document.getElementById("area-other-box");
+    const otherInput = document.getElementById("area-other");
+
+    if (this.value === "أخرى") {
+        otherBox.style.display = "block";
+        otherInput.setAttribute("name", "area"); 
+        otherInput.required = true;
+    } else {
+        otherBox.style.display = "none";
+        otherInput.removeAttribute("name");
+        otherInput.required = false;
+    }
+});
+</script>
+
                 </div>
             </div>
         </div>

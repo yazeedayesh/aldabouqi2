@@ -497,61 +497,95 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <form action="https://formspree.io/f/xyzegrly" method="POST">
-        <!-- Appointment Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h4 class="section-title">احجز موعد الان</h4>
-                        <h3 class="display-5 mb-4">بيع وشراء الأثاث المستعمل بأسعار مميزة</h3>
-                        <p class="mb-4">يمكنكم حجز موعد عبر البريد الالكتروني لزيارتكم وشراء الاثاث المراد بيعه عبر تعبئة النموذج. احجز الان وسيتم التواصل معكم في الوقت المناسب.</p>
-                        <div class="row g-4">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
-                                        <i class="fa fa-2x fa-phone-alt text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">اتصل بنا الان</p>
-                                        <h3 class="mb-0">
-                                             <a href="tel:+962796983994" style="text-decoration: none; color: inherit;">
-                                                 0796983994
-                                             </a>
-                                        </h3>
-                                    </div>
+    <!-- Appointment Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="section-title">احجز موعد الان</h4>
+                    <h3 class="display-5 mb-4">بيع وشراء الأثاث المستعمل بأسعار مميزة</h3>
+                    <p class="mb-4">يمكنكم حجز موعد عبر البريد الالكتروني لزيارتكم وشراء الاثاث المراد بيعه عبر تعبئة النموذج. احجز الان وسيتم التواصل معكم في الوقت المناسب.</p>
+
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
+                                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="name" class="form-control" placeholder="اسمك" style="height: 55px;" required>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" name="email" class="form-control" placeholder="بريدك الالكتروني" style="height: 55px;" required>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="phone" class="form-control" placeholder="رقم الهاتف" style="height: 55px;" required>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="date" id="date" data-target-input="nearest">
-                                    <input type="text" name="date" class="form-control datetimepicker-input" placeholder="اختيار التاريخ" data-target="#date" data-toggle="datetimepicker" style="height: 55px;" required>
+                                <div class="ms-4">
+                                    <p class="mb-2">اتصل بنا الان</p>
+                                    <h3 class="mb-0"><a href="tel:+962796983994" style="text-decoration:none;color:inherit;">0796983994</a></h3>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <textarea name="message" class="form-control" rows="5" placeholder="وصف الأثاث" required></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">ارسل الطلب</button>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Right Side Form -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="name" class="form-control" placeholder="اسمك" style="height:55px;" required>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="بريدك الالكتروني" style="height:55px;" required>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="phone" class="form-control" placeholder="رقم الهاتف" style="height:55px;" required>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <select name="area" id="area-select" class="form-control" style="height:55px;" required>
+                                <option value="">اختر المنطقة</option>
+                                <option value="تلاع العلي">تلاع العلي</option>
+                                <option value="الدوار الرابع">الدوار الرابع</option>
+                                <option value="جبل الحسين">جبل الحسين</option>
+                                <option value="صويلح">صويلح</option>
+                                <option value="العبدلي">العبدلي</option>
+                                <option value="ماركا">ماركا</option>
+                                <option value="طبربور">طبربور</option>
+                                <option value="جبل عمان">جبل عمان</option>
+                                <option value="ضاحية الياسمين">ضاحية الياسمين</option>
+                                <option value="أخرى">أخرى</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-sm-6" id="area-other-box" style="display:none;">
+                            <input type="text" id="area-other" class="form-control" placeholder="اكتب اسم المنطقة" style="height:55px;">
+                        </div>
+
+                        <div class="col-12">
+                            <textarea name="message" class="form-control" rows="5" placeholder="وصف الأثاث" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3" type="submit">ارسل الطلب</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <!-- Appointment End -->
-    </form>
+    </div>
+    <!-- Appointment End -->
+</form>
+
+<script>
+document.getElementById("area-select").addEventListener("change", function() {
+    const otherBox = document.getElementById("area-other-box");
+    const otherInput = document.getElementById("area-other");
+
+    if (this.value === "أخرى") {
+        otherBox.style.display = "block";
+        otherInput.setAttribute("name", "area");
+        otherInput.required = true;
+    } else {
+        otherBox.style.display = "none";
+        otherInput.removeAttribute("name");
+        otherInput.required = false;
+    }
+});
+</script>
+
     
 
     <!-- Footer Start -->
